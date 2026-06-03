@@ -1,13 +1,14 @@
+"use client";
+
 /**
- * This route renders the Sanity Studio embedded inside the Next.js app.
- * Access it at: /studio
+ * Sanity Studio embedded in Next.js.
+ * Access at: /studio
+ *
+ * Must be a Client Component — Studio uses React context internally.
+ * Must NOT be force-static — it requires dynamic rendering.
  */
 import { NextStudio } from "next-sanity/studio";
 import config from "../../../../sanity.config";
-
-export const dynamic = "force-static";
-
-export { metadata, viewport } from "next-sanity/studio";
 
 export default function StudioPage() {
   return <NextStudio config={config} />;
