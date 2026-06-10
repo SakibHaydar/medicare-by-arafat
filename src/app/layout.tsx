@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { CookieBanner } from "@/components/layout/CookieBanner";
 import { Toaster } from "@/components/ui/toaster";
+import { ChatWidget } from "@/components/ui/ChatWidget";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://medicarebyarafat.com",
+    url: process.env.NEXT_PUBLIC_SITE_URL,
     siteName: "Medicare by Arafat",
     title: "Medicare by Arafat | Licensed Insurance Broker",
     description:
@@ -86,6 +87,7 @@ export default function RootLayout({
         <Footer />
         <CookieBanner />
         <Toaster />
+        <ChatWidget />
       </body>
     </html>
   );

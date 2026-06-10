@@ -97,7 +97,7 @@ export function AboutSection() {
             </h2>
             <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
               <p>
-                I&apos;m Yousha Arafat, a licensed insurance broker based in New York. I help individuals and families navigate the often confusing world of health and life insurance — making sure you get the right coverage at the best price.
+                I&apos;m Yousha Arafat, a licensed insurance broker based in New York and New Jersey. I help individuals and families navigate the often confusing world of health and life insurance — making sure you get the right coverage at the best price.
               </p>
               <p>
                 As an <strong className="text-brand-800">independent broker</strong>, I have no obligation to any single insurance company. That means my only loyalty is to you. I compare plans from multiple top-rated carriers and provide honest, pressure-free guidance every step of the way.

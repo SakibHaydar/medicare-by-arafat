@@ -10,6 +10,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.55.0",
     "@hookform/resolvers": "^5.4.0",
     "@portabletext/react": "^6.2.0",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -36,6 +37,7 @@
     "resend": "^6.12.4",
     "sanity": "^5.28.0",
     "sharp": "^0.33.4",
+    "styled-components": "^6.4.2",
     "tailwind-merge": "^3.6.0",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^4.4.3"
